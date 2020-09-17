@@ -1,0 +1,48 @@
+name: photonix_app
+description: A social media app for Android and iOS users.
+
+version: 1.0.7+10
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  firebase_core: ^0.4.5
+  firebase_auth: ^0.16.1
+  firebase_analytics: ^5.0.14
+  cloud_firestore: ^0.13.6
+  firebase_storage: ^3.1.6
+  firebase_messaging: ^6.0.16
+  image: ^2.1.12
+  animator: 0.1.4
+  image_picker: ^0.6.7
+  path_provider: ^1.6.9
+  flutter_svg: ^0.17.4
+  geolocator: 5.0.1
+  uuid: ^2.0.4
+  flare_flutter: ^2.0.3
+  intl: ^0.16.1
+  image_cropper: ^1.2.2
+  shimmer: ^1.1.1
+  cached_network_image: ^2.2.0+1
+  timeago: ^2.0.26
+  provider: ^4.1.2
+  font_awesome_flutter: ^8.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
